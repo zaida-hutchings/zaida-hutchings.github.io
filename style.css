@@ -91,13 +91,9 @@ blockquote p:last-child {
  */
 
 /* Full size background image */
-html, #container, .inner { background-color:transparent;}
-html {
-  background:url(background.jpg) center center no-repeat fixed;
-  background-size:cover;
-}
+html, #container, .inner { background-color:#E5E9FD;}
 body {
-  max-width:800px;
+  max-width:1200px;
   margin:25px auto;
 }
 header, #content, footer { 
