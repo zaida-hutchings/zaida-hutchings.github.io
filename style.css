@@ -11,7 +11,7 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #FFFFFF;
+  color: #94ABF9;
 }
 
 /**
@@ -20,7 +20,7 @@ body {
 a {
   font-weight: normal;
   text-decoration: none; 
-  color:#EF6D3D;
+  color:#171D3A;
 }
 a:focus {
   outline: thin dotted;
@@ -91,7 +91,7 @@ blockquote p:last-child {
  */
 
 /* Full size background image */
-html, #container, .inner { background-color:#E5E9FD;}
+html, #container, .inner { background-color:#E7EBFD;}
 body {
   max-width:1200px;
   margin:25px auto;
@@ -124,7 +124,7 @@ ul.main-menu li a:hover {
   color:#FFFFFF;
 }
 ul.main-menu li a.active {
-  color:#FFFFFF;
+  color:#F598FF;
   border-bottom-color:#EF6D3D;
 }
 
