@@ -97,9 +97,9 @@ body {
   margin:25px auto;
 }
 header, #content, footer { 
-  background: rgba(0,0,0,.8); 
+  background-color:#E7EBFD; 
   padding:25px;
-  color:#FFFFFF; 
+  color:#F599FF; 
 }
 iframe {
   max-width:100%;
@@ -118,7 +118,7 @@ ul.main-menu li a {
   margin-right:20px;
   font-size:2.0rem;
   border-bottom: solid transparent 3px;
-  color:#cfd2da;
+  color:#F599FF;
 }
 ul.main-menu li a:hover {
   color:#FFFFFF;
