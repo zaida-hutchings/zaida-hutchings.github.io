@@ -99,7 +99,7 @@ body {
 header, #content, footer { 
   background-color:#FFFFFF; 
   padding:25px;
-  color:#FFFFFF; 
+  color:#171D3A; 
 }
 iframe {
   max-width:100%;
@@ -125,7 +125,7 @@ ul.main-menu li a:hover {
 }
 ul.main-menu li a.active {
   color:#171D3A;
-  border-bottom-color:#171D3A;
+  border-bottom-color:#F598FF;
 }
 
 /* Utility classes */
