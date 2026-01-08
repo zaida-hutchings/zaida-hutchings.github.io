@@ -13,7 +13,59 @@ body {
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #94ABF9;
 }
+/** 
+Buttons */
 
+.buttons {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.button {
+	appearance: none;
+	border: none;
+	outline: none;
+	background: none;
+	cursor: pointer;
+
+	font-size: 1.25rem;
+	font-weight: 700;
+	text-transform: uppercase;
+
+	padding: 1rem 1.5rem;
+	border-radius: 0.5rem;
+	background-color: hotpink;
+	color: white;
+	margin-bottom: 2rem;
+}
+#two {
+	position: relative;
+	overflow: hidden;
+}
+
+#two span {
+	position: relative;
+	z-index: 2;
+}
+
+#two:after {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 0;
+	width: 0;
+	height: 0;
+	background-color: darkviolet;
+	border-radius: 999px;
+	transition: 0.8s ease-out;
+}
+
+#two:hover:after {
+	width: 200%;
+	padding-top: 200%;
 /**
  * Links
  */
