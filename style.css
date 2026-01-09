@@ -3,6 +3,9 @@
  */
 
 /* html is set to 62.5% so that all the REM measurements are based on 10px sizing. So basically 1.5rem = 15px */
+{
+	box-sizing: border-box;
+}
 html {
   font-size: 62.5%;
 }
@@ -15,13 +18,6 @@ body {
 }
 /** 
 Buttons */
-
-.buttons {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-}
-
 .button {
 	appearance: none;
 	border: none;
@@ -38,18 +34,16 @@ Buttons */
 	background-color: hotpink;
 	color: white;
 	margin-bottom: 2rem;
-}
-#two {
 	position: relative;
 	overflow: hidden;
 }
 
-#two span {
+.button span {
 	position: relative;
 	z-index: 2;
 }
 
-#two:after {
+.button :after {
 	content: '';
 	position: absolute;
 	top: 50%;
@@ -63,7 +57,7 @@ Buttons */
 	transition: 0.8s ease-out;
 }
 
-#two:hover:after {
+.button :hover:after {
 	width: 200%;
 	padding-top: 200%;
 /**
