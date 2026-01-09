@@ -68,6 +68,11 @@ img {
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 16px; /* space between images */
 }
+.portfolio-gallery img {
+  width: 100%;
+  height: 200px;       /* pick a uniform height */
+  object-fit: cover;   /* crops to fill the area nicely */
+}
 
 /**
  * Links
