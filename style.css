@@ -73,6 +73,36 @@ img {
   height: 200px;       /* pick a uniform height */
   object-fit: cover;   /* crops to fill the area nicely */
 }
+.project-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+  margin-bottom: 4rem;
+}
+
+.project-row img {
+  width: 40%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 0.5rem;
+}
+
+.project-text {
+  flex: 1;
+}
+@media (max-width: 768px) {
+  .project-row {
+    flex-direction: column;
+  }
+
+  .project-row img {
+    width: 100%;
+    max-width: none;
+  }
+}
+.project-row.reverse {
+  flex-direction: row-reverse;
+}
 
 /**
  * Links
