@@ -16,47 +16,48 @@ body {
 /** 
 Buttons */
 .button {
-	appearance: none;
-	border: none;
-	outline: none;
-	background: none;
-	cursor: pointer;
+  appearance: none;
+  border: none;
+  outline: none;
+  background: hotpink;
+  cursor: pointer;
 
-	font-size: 1.25rem;
-	font-weight: 700;
-	text-transform: uppercase;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-transform: uppercase;
 
-	padding: 1rem 1.5rem;
-	border-radius: 0.5rem;
-	background-color: hotpink;
-	color: white;
-	margin-bottom: 2rem;
-	position: relative;
-	overflow: hidden;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  color: white;
+  margin-bottom: 2rem;
+
+  position: relative;
+  overflow: hidden;
 }
 
 .button span {
-	position: relative;
-	z-index: 2;
+  position: relative;
+  z-index: 2;
 }
 
-.button :after {
-	content: '';
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	z-index: 0;
-	width: 0;
-	height: 0;
-	background-color: darkviolet;
-	border-radius: 999px;
-	transition: 0.8s ease-out;
+/* ✅ FIXED */
+.button::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 0;
+  width: 0;
+  height: 0;
+  background-color: darkviolet;
+  border-radius: 999px;
+  transition: 0.8s ease-out;
 }
-
-.button :hover:after {
-	width: 200%;
-	padding-top: 200%;
+.button:hover::after {
+  width: 200%;
+  padding-top: 200%;
+}
 /**
  * Links
  */
