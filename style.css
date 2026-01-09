@@ -57,6 +57,18 @@ Buttons */
 .button:hover::after {
   transform: scale(2); 
 }
+/** Image size */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* prevents whitespace under images */
+}
+.portfolio-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px; /* space between images */
+}
+
 /**
  * Links
  */
