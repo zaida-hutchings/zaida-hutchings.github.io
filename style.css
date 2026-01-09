@@ -40,13 +40,13 @@ Buttons */
   z-index: 2;
 }
 
-/* ✅ FIXED */
 .button::after {
   content: '';
   position: absolute;
+  inset: 0;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: scale(0);
   z-index: 0;
   width: 0;
   height: 0;
@@ -55,8 +55,7 @@ Buttons */
   transition: 0.8s ease-out;
 }
 .button:hover::after {
-  width: 200%;
-  padding-top: 200%;
+  transform: scale(2); 
 }
 /**
  * Links
