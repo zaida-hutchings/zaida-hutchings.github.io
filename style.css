@@ -16,22 +16,17 @@ body {
 /** 
 Buttons */
 .button {
-  appearance: none;
-  border: none;
-  outline: none;
-  background: hotpink;
-  cursor: pointer;
-
+  position: relative;
+  display: inline-block;
+  padding: 1rem 1.5rem;
+  border-radius: 0.5rem;
+  background-color: hotpink;
+  color: white;
   font-size: 1.25rem;
   font-weight: 700;
   text-transform: uppercase;
-
-  padding: 1rem 1.5rem;
-  border-radius: 0.5rem;
-  color: white;
-  margin-bottom: 2rem;
-
-  position: relative;
+  text-decoration: none;
+  cursor: pointer;
   overflow: hidden;
 }
 
@@ -44,19 +39,17 @@ Buttons */
   content: '';
   position: absolute;
   inset: 0;
-  top: 50%;
-  left: 50%;
-  transform: scale(0);
-  z-index: 0;
-  width: 0;
-  height: 0;
   background-color: darkviolet;
-  border-radius: 999px;
-  transition: 0.8s ease-out;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.4s ease;
+  z-index: 1;
 }
+
 .button:hover::after {
-  transform: scale(2); 
+  transform: scaleX(1);
 }
+
 /** Image size */
 img {
   max-width: 100%;
