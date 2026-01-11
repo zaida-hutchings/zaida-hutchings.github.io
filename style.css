@@ -7,7 +7,7 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-size: 1.7em; /* currently ems cause chrome bug misinterpreting rems on body element */
+  font-size: 1.5em; /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
   font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -22,7 +22,7 @@ Buttons */
   border-radius: 0.5rem;
   background-color: hotpink;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
@@ -136,9 +136,9 @@ h6 {
   margin-bottom: 2rem;
   font-weight: 300;
 }
-h1 { font-size: 4.0rem; line-height: 1.25; letter-spacing: -.1rem; }
-h2 { font-size: 3.5rem; line-height: 1.3;  letter-spacing: -.1rem; }
-h3 { font-size: 3.0rem; line-height: 1.35; letter-spacing: -.08rem; }
+h1 { font-size: 3.6rem; line-height: 1.25; letter-spacing: -.1rem; }
+h2 { font-size: 3.0rem; line-height: 1.3;  letter-spacing: -.1rem; }
+h3 { font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; }
 h4 { font-size: 1.8rem; line-height: 1.5;  letter-spacing: -.05rem; }
 h5 { font-size: 1.5rem; line-height: 1.6;  letter-spacing: 0; }
 h6 { font-size: 1.4rem; line-height: 1.6;  letter-spacing: 0; }
@@ -207,7 +207,7 @@ ul.main-menu {
 }
 ul.main-menu li a {
   margin-right:20px;
-  font-size:4.0rem;
+  font-size:2.0rem;
   border-bottom: solid transparent 3px;
   color:#171D3A;
 }
@@ -245,7 +245,7 @@ ul.main-menu li a.active {
 }
 
 .hero-intro {
-  font-size: 2.0rem;
+  font-size: 1.8rem;
   line-height: 1.6;
   margin-bottom: 3rem;
 }
