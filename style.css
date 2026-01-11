@@ -207,7 +207,7 @@ ul.main-menu {
 }
 ul.main-menu li a {
   margin-right:20px;
-  font-size:4.0rem;
+  font-size:3.0rem;
   border-bottom: solid transparent 3px;
   color:#171D3A;
 }
@@ -240,7 +240,7 @@ ul.main-menu li a.active {
 }
 
 .hero h1 {
-  font-size: 4.8rem;
+  font-size: 4.0rem;
   margin-bottom: 1.5rem;
 }
 
