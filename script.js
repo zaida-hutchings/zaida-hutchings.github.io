@@ -1,4 +1,4 @@
-/ Wait for the document to load before running the script 
+// Wait for the document to load before running the script 
 (function ($) {
   
   // We use some Javascript and the URL #fragment to hide/show different parts of the page
